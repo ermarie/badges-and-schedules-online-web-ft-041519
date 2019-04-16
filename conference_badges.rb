@@ -17,6 +17,7 @@ def assign_rooms(arr)
   arr.each_with_index do |name, index|
     new_arr << "Hello, #{name}! You'll be assigned to room #{index + 1}!"
   end
+  puts new_arr
   new_arr
 end
 
