@@ -8,7 +8,7 @@ def batch_badge_creator(arr)
   arr.each do |name|
     new_arr << "Hello, my name is #{name}."
   end
-  puts new_arr
+  new_arr
 end
 
 def assign_rooms(arr)
