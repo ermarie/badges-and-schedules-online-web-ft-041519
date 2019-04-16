@@ -20,5 +20,7 @@ def assign_rooms(arr)
 end
 
 def printer
+  batch_badge_creator.each do
 
+  end
 end
