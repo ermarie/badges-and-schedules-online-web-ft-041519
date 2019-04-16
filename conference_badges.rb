@@ -23,7 +23,6 @@ end
 
 def printer(attendees)
   i = 0
-  batch_badge_creator(attendees)
+  batch_badge_creator(attendees[0])
   assign_rooms(attendees)
-
 end
